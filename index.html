@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="search">
+        <input class="input-value" type="text" placeholder="search city name" />
+        <button class="search-btn">
+          <img src="images/search.png" alt="" />
+        </button>
+      </div>
+      <div class="error"></div>
+
+      <div class="weather">
+        <div class="weather-icon">
+          <img src="images/rain.png" class="currentWeather" alt="" />
+        </div>
+        <span class="temp">0°c</span>
+        <span class="city">Germany</span>
+        <div class="weather-details">
+          <div class="details-column">
+            <span class="humidity-icon"
+              ><img src="images/humidity.png" alt=""
+            /></span>
+            <div>
+              <p class="units humidity">99%</p>
+              <p>humidity</p>
+            </div>
+          </div>
+          <div class="details-column">
+            <span class="wind-icon"><img src="images/wind.png" alt="" /></span>
+            <div>
+              <p class="units wind">0.78km/h</p>
+              <p>wind speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
